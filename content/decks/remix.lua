@@ -4,6 +4,7 @@ if LR_CONFIG.remix_enabled then
         atlas = 'Decks',
         pos = { x = 0, y = 3 },
         config = {
+            dollars = 10,
             vouchers = { 'v_fmod_grab_bag', 'v_fmod_gachapon' }
         },
         unlocked = true,
