@@ -166,13 +166,6 @@ return {
                     "{C:inactive}(Required rank changes every round)"
                 }
             },
-            j_fmod_fragile_sticker = {
-                name = "Fragile Sticker",
-                text = {
-                    "{C:attention}Glass Cards{} no longer",
-                    "break through use",
-                }
-            },
             j_fmod_ghost_trick = {
                 name = "Ghost Trick",
                 text = {
@@ -250,7 +243,7 @@ return {
                 }
             },
             j_fmod_trans_joker = {
-                name = "Trans Joker",
+                name = "Trap Joker",
                 text = {
                     "When a card changes",
                     "{C:attention,V:1}rank{} or {C:attention,V:2}suit{}, it",
@@ -946,7 +939,7 @@ return {
                 name = "Reaper Deck",
                 text = {
                     "Every Boss Blind is a",
-                    "{C:attention}Finisher Blind{} with {X:mult,C:white}X2{} {C:red}Size{}",
+                    "{C:attention}Finisher Blind{} with {X:mult,C:white}X1.5{} {C:red}Size{}",
                     "{C:blue}+1{} Hand, {C:red}+1{} Discard,",
                     "{C:attention}+1{} Hand Size, {C:attention}+1{} Joker Slot"
                 }
@@ -956,7 +949,7 @@ return {
                 text = {
                     "All cards in deck are",
                     "the same {C:attention}rank{} and {C:attention}suit{}",
-                    "{C:red}-2{} Discards"
+                    "{C:red}-1{} Discards"
                 }
             },
             b_fmod_tricky = {
