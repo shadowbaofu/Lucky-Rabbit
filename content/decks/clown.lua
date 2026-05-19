@@ -3,7 +3,7 @@ if LR_CONFIG.silly_enabled then
         key = 'clown',
         atlas = 'Decks',
         pos = { x = 0, y = 1 },
-        config = {
+        config = { dollars = 10,
             voucher = 'v_fmod_circus'
         },
         unlocked = true,
