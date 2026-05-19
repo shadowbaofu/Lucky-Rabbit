@@ -5,7 +5,7 @@ SMODS.Back {
     unlocked = true,
     discovered = false,
     config = {
-        dollars = -2,
+        dollars = 8,
         extra = {
             amount = 13
         }
