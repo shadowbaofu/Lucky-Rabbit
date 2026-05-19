@@ -5,6 +5,7 @@ SMODS.Back {
     unlocked = true,
     discovered = false,
     config = {
+        dollars = 10,
         hands = 1,
         discards = 1,
         hand_size = 1,
@@ -12,7 +13,7 @@ SMODS.Back {
     },
     calculate = function(self, back, context)
         if context.setting_blind and G.GAME.blind.boss then
-            G.GAME.blind.chips = G.GAME.blind.chips * 2
+            G.GAME.blind.chips = G.GAME.blind.chips * 1.5
             G.GAME.blind.chip_text = number_format(G.GAME.blind.chips)
         end
     end
